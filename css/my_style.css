@@ -1,0 +1,131 @@
+/*************
+Global
+*************/
+body {
+    background-image: radial-gradient(circle, rgb(173, 216, 235), rgb(255, 255, 255), aqua);
+    font-family: Gibson, Helvetica Neue, sans-serif;
+}
+.ft-nav {
+    margin-top: 20px;
+}
+hr {
+    border-color: #000;
+    height: 2px;
+    width: auto;
+}
+.ft-btn {
+    border: solid;
+    color: #000;
+    border-width: 2px;
+}
+.selected {
+    border: solid;
+    color: #ffffcc;
+    border-width: 2px;
+}
+.ft-footr {
+    margin-top: 45px;
+}
+/*********************
+Page: Index
+*********************/
+.ft-main {
+    margin-top: 30px;
+}
+/* Image */
+.ft-img {
+    height: 225px;
+    width: 200px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+/***********************
+Page: Resume
+***********************/
+.ft-hdr {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.jcps_classes {
+    margin-left: 20px;
+}
+/***************************
+Page: Contact
+***************************/
+.ft-contact {
+    margin-top: 35px;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+    color: #000;
+}
+.contact-info li.phone a {
+ background-image: url("../img/phone.png");
+}
+.contact-info li.mail a {
+ background-image: url("../img/mail.png");
+}
+/* Media Queries */
+@media screen and (max-width: 1025px) {
+    .ft-img {
+        height: 200px;
+        width: 150px;
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+    .ft-para {
+        margin-top: 30px;
+    }
+    .welcome {
+        text-align: center;
+    }
+    .ft-footr {
+        text-align: center;
+    }
+}
+
+@media screen
+and (min-width: 768px )
+and (max-width: 1023px) {
+    .ft-img {
+        margin-left: 10%;
+    }
+    .ft-para {
+        max-width: 750px;
+        margin-left: 3%;
+        margin-right: 4%;
+    }
+    .ft-footr {
+        margin-left: 10%;
+    }
+}   
+
+@media screen
+and (min-width: 319px )
+and (max-width: 767px) {
+    .ft-img {
+        margin-left: 10%;
+    }
+    .ft-para {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .ft-footr {
+        /*margin-left: 10%;*/
+        margin: auto;
+    }
+}   
