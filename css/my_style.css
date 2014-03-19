@@ -2,7 +2,7 @@
 Global
 *************/
 body {
-    background-image: radial-gradient(circle, rgb(173, 216, 235), rgb(255, 255, 255), aqua);
+    background: #ffc;
     font-family: Gibson, Helvetica Neue, sans-serif;
 }
 .ft-nav {
@@ -16,14 +16,19 @@ hr {
     width: auto;
 }
 .ft-btn {
+    background: #00BFFF;
     border: solid;
+    border-color: #000;
     color: #000;
-    border-width: 2px;
+}
+.ft-btn:hover {
+    background: #BFEFFF;
+    color: #000;
 }
 .selected {
+    background: #00BFFF;
     border: solid;
-    color: #ffffcc;
-    border-width: 2px;
+    color: #fff;
 }
 .ft-main {
     max-width: 940px;
